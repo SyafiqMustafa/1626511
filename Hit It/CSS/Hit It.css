@@ -1,0 +1,60 @@
+﻿body {
+    margin: 0;
+    background-color: antiquewhite;
+    text-align: center;
+}
+h1 {
+    color: black;
+    text-align:center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic'; 
+}
+.Logo {
+    float: left;
+    
+}
+.Menu ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 1520px;
+}
+.Menu li {
+    float: left;
+}
+.Menu li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic';
+    width: 240px;
+    padding: 5px;
+}
+.Menu a:hover {
+    background-color: darkgray;
+}
+fieldset {
+    border: 1px solid rgb(255,232,57);
+    border-color: black;
+    width: 400px;
+    margin: auto;
+    font-family: 'Franklin Gothic';
+    text-align: left;
+}
+#map {
+    width: 500px;
+    height: 400px;
+    background-color: grey;
+    border: 1px solid rgb(255,232,57);
+    border-color: black;
+: 
+      }
+
+
+
+  

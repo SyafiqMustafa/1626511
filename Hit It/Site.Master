@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Hit_It.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS/Hit It.css" rel="stylesheet" type="text/css" />
+    <title>Hit It! Best online shop to buy drums</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <h1><img src="../images/logo.png" width="75px" height="75px" />Hit It!</h1>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Menu">
+            <nav>
+                <ul>
+                    <li><a href="Default.aspx" >Home</a></li>
+                    <li><a href="Product.aspx" >Product</a></li>
+                    <li><a href="Contact.aspx" >Contact</a></li>
+                    <li><a href="About Us.aspx">About Us</a></li>
+                    <li><a href="Sign In.aspx">Sign In</a></li>
+                    <li><a href="Cart.aspx" >Cart</a></li>
+                </ul>
+            </nav>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+     <!-- Leave This blank-->
+     </asp:ContentPlaceHolder>
+        
+            <footer>&copy; Syafiq Mustafa 2017
+                <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                <a href="jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+                <a href="achecker.ca/checker/?uri=referer">Check WCAG</a>
+            </footer>
+        
+       </div>
+    </form>
+</body>
+</html>
