@@ -18,9 +18,6 @@
             <td>
                 <asp:RequiredFieldValidator ID="RequiredFiledValidator" runat="server" ControlToValidate="txtName" ErrorMessage="Please enter Name"></asp:RequiredFieldValidator>
             </td>
-            <td>
-                <asp:RegularExpressionValidator ID="NameValidator" runat="server" ErrorMessage="Invalid Name." ControlToValidate="txtName" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" />
-            </td>
         </tr>          
         <tr>
             <td>
