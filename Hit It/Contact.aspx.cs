@@ -44,7 +44,7 @@ namespace Hit_It
             }
             catch (Exception ex)
             {
-                message.Text = "Error occured while sending your message." + ex.Message;
+                message.Text = "Error occured while sending your comments." + ex.Message;
             }
             txtName.Text = "";
             txtEmail.Text = "";
