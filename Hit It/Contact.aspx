@@ -11,47 +11,29 @@
         <tr>
             <td>
                 <asp:Label ID="Name" runat="server" Text="Name :"></asp:Label>
-            </td>
-            <td>
                 <asp:TextBox ID="txtName" Width="400px" runat="server"></asp:TextBox>
-            </td>
-            <td>
                 <asp:RequiredFieldValidator ID="RequiredFiledValidator" runat="server" ControlToValidate="txtName" ErrorMessage="Please enter Name"></asp:RequiredFieldValidator>
             </td>
         </tr>          
         <tr>
             <td>
                 <asp:Label ID="Email" runat="server" Text="Email :"></asp:Label>
-            </td>
-            <td>
                 <asp:TextBox ID="txtEmail" Width="400px" runat="server"></asp:TextBox>
-            </td>
-            <td>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEmail" ErrorMessage="Please enter Email"></asp:RequiredFieldValidator>
-            </td>
-            <td>
                 <asp:RegularExpressionValidator ID="EmailValidator" runat="server" ErrorMessage="Invalid Email." ControlToValidate="txtEmail" ValidationExpression="^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$" />
             </td>
         </tr>    
         <tr>
             <td>
                 <asp:Label ID="Subject" runat="server" Text="Subject :"></asp:Label>   
-            </td>
-            <td>
                 <asp:TextBox ID="txtSubject" Width="400px" runat="server"></asp:TextBox>                              
-            </td>
-            <td>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtSubject" ErrorMessage="Please enter Subject"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
-            <td style="vertical-align: top">
-                <asp:Label ID="Comments" runat="server" Text="Comments :"></asp:Label>         
-            </td>
             <td>
+                <asp:Label ID="Comments" runat="server" Text="Comments :" style="vertical-align: top"></asp:Label>         
                 <asp:TextBox ID="txtComments" Width="400" runat="server" Rows="5" TextMode="MultiLine"></asp:TextBox>                 
-            </td>
-            <td>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtComments" ErrorMessage="Please enter Comments"></asp:RequiredFieldValidator>
             </td>
         </tr>                    

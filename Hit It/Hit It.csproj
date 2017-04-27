@@ -101,7 +101,7 @@
     <Content Include="Cart.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="contact1.aspx" />
-    <Content Include="CSS\Hit It.css" />
+    <Content Include="CSS\HitIt.css" />
     <Content Include="googlemap.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
