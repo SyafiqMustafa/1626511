@@ -18,8 +18,8 @@
                     <li><a href="Default.aspx" >Home</a></li>
                     <li><a href="Product.aspx" >Product</a></li>
                     <li><a href="Contact.aspx" >Contact</a></li>
-                    <li><a href="About Us.aspx">About Us</a></li>
-                    <li><a href="Sign In.aspx">Sign In</a></li>
+                    <li><a href="AboutUs.aspx">About Us</a></li>
+                    <li><a href="SignIn.aspx">Sign In</a></li>
                     <li><a href="Cart.aspx" >Cart</a></li>
                 </ul>
             </nav>
