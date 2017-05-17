@@ -5,14 +5,14 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-<fieldset style="width: 350px">    
+<fieldset style="width: 350px">     
     <legend class="legend">Contact Us</legend>                          
     <table>
         <tr>
             <td>
                 <asp:Label ID="Name" runat="server" Text="Name :"></asp:Label>
                 <asp:TextBox ID="txtName" Width="400px" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFiledValidator" runat="server" ControlToValidate="txtName" ErrorMessage="Please enter Name"></asp:RequiredFieldValidator>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ControlToValidate="txtName" ErrorMessage="Please enter Name"></asp:RequiredFieldValidator>
             </td>
         </tr>          
         <tr>
